@@ -1,0 +1,49 @@
+Messages:
+  #General Messages
+  prefix: '[MGBCORE] '
+  #Prefix is being used in console messages
+  no-perms-message: '&fUnknown command. Type "/help" for help.'
+  no-player-found: '&cCannot find &c'
+  invalid-syntax: '&fInvalid syntax'
+
+  #Console-Messages
+  only-player-command-message: 'This is a player only command'
+  invalid-syntax-console: '&fInvalid syntax'
+
+  #Join-Leave Messages
+  on-join-message: '&8[&6+&8] &6'
+  on-leave-message: '&8[&6-&8] &6'
+
+  #Fly Mod
+  fly-enabled-message: '&6Flight has been enabled'
+  fly-disabled-message: '&6Flight has been disabled'
+  flight-disabled-for-others-message: '&6Flight has been disabled for '
+  flight-enabled-for-others-message: '&6Flight has been enabled for '
+
+  #God Mod
+  god-enabled-self: '&6God has been enabled'
+  god-disabled-self: '&6God has been disabled'
+  god-enabled-others: '&6God has been enabled for '
+  god-disabled-others: '&6God has been disabled for '
+
+  #Vanish Mod
+  vanish-enabled-self: '&6Vanish has been enabled'
+  vanish-disabled-self: '&6Vanish has been disabled'
+  vanish-enabled-others: '&6Vanish has been enabled for '
+  vanish-disabled-others: '&6Vanish has been disabled for '
+
+Permissions:
+  #Permission for using /fly on yourself
+  fly-self: 'mgbcore.fly'
+  #Permission for using /fly on other people
+  fly-others: 'mgbcore.fly.others'
+
+  #Permission for using /god on yourself
+  god-self: 'mgbcore.god'
+  #Permission for using /god on other people
+  god-others: 'mgbcore.god.others'
+
+  #Permission for using /vanish on yourself
+  vanish-self-perm: 'mgbcore.vanish.others'
+  #Permission for using /vanish on other people
+  vanish-others-perm: 'mgbcore.vanish.others'

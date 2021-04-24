@@ -1,0 +1,15 @@
+name: Mgbcore
+version: ${project.version}
+main: dev.meeseeks.plugins.mgbcore.Mgbcore
+api-version: 1.16
+authors: [ MeeseeksDev ]
+description: A core for further minecraft servers about megagigabyte's projects
+commands:
+  fly:
+    description: A /fly mod.
+  god:
+    description: A /god mod.
+  vanish:
+    description: Makes you vanish for other players
+    aliases:
+      - v
